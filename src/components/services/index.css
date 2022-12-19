@@ -1,0 +1,28 @@
+.services-container{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.services{
+    width: 500px;
+    height: 500px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .services-container{
+        width: 100vw;
+        height: 660px;
+    }
+    .services{
+        
+        margin-top: 50px;
+        width: 350px;
+        height: 667px;
+    }
+  }

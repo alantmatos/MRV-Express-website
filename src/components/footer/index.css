@@ -1,0 +1,33 @@
+.footer-container{
+    background-color: #333333;
+
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+
+    bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.footer{
+    color: rgb(253, 253, 155);
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        margin-left: 20px;
+    }
+  }
